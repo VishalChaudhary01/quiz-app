@@ -5,7 +5,7 @@ export const HomePage = () => {
   const navigate = useNavigate();
   return (
     <div className="flex flex-col gap-4 items-center justify-center min-h-screen p-4">
-      <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold">Welcome to the Quiz App</h1>
+      <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold">Welcome to the <span className="text-primary">Quiz App</span></h1>
       <div className="w-full md:w-2/3 lg:w-1/2 text-sm text-gray-500 p-4">
         <h3 className="text-lg font-semibold mb-4">Rules to Play the Quiz</h3>
         <ul className="list-disc list-inside space-y-2">
