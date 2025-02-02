@@ -87,6 +87,7 @@ export const QuizPage = () => {
           }
           className="flex flex-col items-start gap-4"
         >
+          {/* @ts-ignore */}
           {quizData[currentQueAns.index].options.map((option) => (
             <div key={option.id} className="flex items-center space-x-2">
               <RadioGroupItem value={option.id} id={option.id} />
