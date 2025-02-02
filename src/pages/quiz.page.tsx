@@ -97,18 +97,6 @@ export const QuizPage = () => {
       </CardContent>
       <CardFooter>
       <div className="absolute bottom-6 right-6 flex items-center gap-4">
-          <Button
-            disabled={currentQueAns.index === 0}
-            onClick={() =>
-              setCurrentQueAns((prev) => ({
-                ...prev,
-                index: prev.index - 1,
-                questionId: quizData[prev.index - 1].id,
-              }))
-            }
-          >
-            Previous
-          </Button>
           <Button onClick={handleSubmitAns}>
             {currentQueAns.index === quizData.length - 1 ? "Finish" : "Next"}
           </Button>

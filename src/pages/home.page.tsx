@@ -13,8 +13,9 @@ export const HomePage = () => {
           <li>Each question has a <strong>single correct answer</strong>.</li>
           <li>Your score will be displayed at the end of the quiz.</li>
           <li>Once you click <strong>Finish</strong>, you cannot change your answers.</li>
+          <li>Once you click <strong>Next</strong>, you cannot go back to the previous question.</li>
+          <li>You can navigate between questions using <strong>Next</strong> button.</li>
           <li>There is <strong>no time limit</strong>, so take your time to think carefully.</li>
-          <li>You can navigate between questions using the <strong>Previous</strong> and <strong>Next</strong> buttons.</li>
           <li>You can review your answers and see the correct answers with explanations after completing the quiz.</li>
         </ul>
       </div>
